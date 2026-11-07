@@ -1,0 +1,182 @@
+{
+ "updated": "2026-11-08",
+ "checked": "2026-11-07",
+ "years": {
+  "2026": {
+   "effective": "2026-01-01",
+   "FED": {
+    "single": {
+     "label": "Single",
+     "std": 16100,
+     "br": [
+      [0, 0.1],
+      [12400, 0.12],
+      [50400, 0.22],
+      [105700, 0.24],
+      [201775, 0.32],
+      [256225, 0.35],
+      [640600, 0.37]
+     ]
+    },
+    "joint": {
+     "label": "Married filing jointly",
+     "std": 32200,
+     "br": [
+      [0, 0.1],
+      [24800, 0.12],
+      [100800, 0.22],
+      [211400, 0.24],
+      [403550, 0.32],
+      [512450, 0.35],
+      [768700, 0.37]
+     ]
+    },
+    "hoh": {
+     "label": "Head of household",
+     "std": 24150,
+     "br": [
+      [0, 0.1],
+      [17700, 0.12],
+      [67450, 0.22],
+      [105700, 0.24],
+      [201750, 0.32],
+      [256200, 0.35],
+      [640600, 0.37]
+     ]
+    }
+   },
+   "TAX": {
+    "ssRate": 0.062,
+    "ssBase": 184500,
+    "medRate": 0.0145,
+    "addMedRate": 0.009,
+    "addMedThr": {
+     "single": 200000,
+     "joint": 250000,
+     "hoh": 200000
+    },
+    "k401": 24500
+   },
+   "items": [
+    {
+     "n": "Federal income tax brackets and standard deductions",
+     "src": "IRS",
+     "st": "official",
+     "note": "Published October 2025"
+    },
+    {
+     "n": "Social Security wage base",
+     "src": "SSA",
+     "st": "official",
+     "note": "Published October 2025"
+    },
+    {
+     "n": "401(k) employee deferral limit",
+     "src": "IRS",
+     "st": "official",
+     "note": "Published November 2025"
+    },
+    {
+     "n": "State income tax tables",
+     "src": "Tax Foundation",
+     "st": "official",
+     "note": "Rates in force on January 1, 2026"
+    },
+    {
+     "n": "State disability and paid-leave rates",
+     "src": "State agencies via EY",
+     "st": "official",
+     "note": "Rates for 2026"
+    }
+   ]
+  },
+  "2027": {
+   "effective": "2027-01-01",
+   "FED": {
+    "single": {
+     "label": "Single",
+     "std": 16600,
+     "br": [
+      [0, 0.1],
+      [12800, 0.12],
+      [52025, 0.22],
+      [109125, 0.24],
+      [208325, 0.32],
+      [264550, 0.35],
+      [661375, 0.37]
+     ]
+    },
+    "joint": {
+     "label": "Married filing jointly",
+     "std": 33200,
+     "br": [
+      [0, 0.1],
+      [25600, 0.12],
+      [104050, 0.22],
+      [218250, 0.24],
+      [416650, 0.32],
+      [529100, 0.35],
+      [793650, 0.37]
+     ]
+    },
+    "hoh": {
+     "label": "Head of household",
+     "std": 24925,
+     "br": [
+      [0, 0.1],
+      [18250, 0.12],
+      [69650, 0.22],
+      [109100, 0.24],
+      [208300, 0.32],
+      [264550, 0.35],
+      [661350, 0.37]
+     ]
+    }
+   },
+   "TAX": {
+    "ssRate": 0.062,
+    "ssBase": 192300,
+    "medRate": 0.0145,
+    "addMedRate": 0.009,
+    "addMedThr": {
+     "single": 200000,
+     "joint": 250000,
+     "hoh": 200000
+    },
+    "k401": 24500
+   },
+   "items": [
+    {
+     "n": "Federal income tax brackets and standard deductions",
+     "src": "IRS",
+     "st": "official",
+     "note": "Published November 5, 2026 (Rev. Proc. 2026-35)"
+    },
+    {
+     "n": "Social Security wage base",
+     "src": "SSA",
+     "st": "official",
+     "note": "Published October 14, 2026 ($192,300)"
+    },
+    {
+     "n": "401(k) employee deferral limit",
+     "src": "IRS",
+     "st": "carried",
+     "note": "Not published yet. The 2026 limit is used until the IRS announces 2027."
+    },
+    {
+     "n": "State income tax tables",
+     "src": "Tax Foundation",
+     "st": "carried",
+     "note": "2027 tables are not out yet. The 2026 tables are used."
+    },
+    {
+     "n": "State disability and paid-leave rates",
+     "src": "State agencies via EY",
+     "st": "carried",
+     "note": "2026 rates are carried forward. Wage caps follow the Social Security base."
+    }
+   ]
+  }
+ }
+}
